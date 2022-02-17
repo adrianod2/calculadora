@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(73, 73, 73);
+   height: 80vh;
+   font-family: 'Inter', sans-serif;
+}
+
+h1 {
+   color: rgb(255, 255, 255);
+   margin-bottom: 2rem;
+   font-size: 1.8em;
+}
+
+span {
+   font-size: 1rem;
+   font-weight: normal;
+   vertical-align: super;
+}
+
+.calculator {
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(163, 68, 68);
+   padding: 2px;
+   border-radius: 4px;
+}
+
+#display {
+   width: 200px;
+   height: 75px;
+   background-color: rgb(201, 201, 201);
+   color: rgb(255, 255, 255);
+   border: none;
+   border-top-left-radius: 4px;
+   border-top-right-radius: 4px;
+   text-align: end;
+   padding: 1rem;
+   font-size: 22pt;
+   font-weight: bolder;
+}
+
+.buttons {
+   padding: 1rem;
+   background-color: rgb(255, 255, 255);
+   margin-top:  -20px;
+}
+
+section {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 5px;
+}
+
+.fourth {
+   margin-bottom: 0;
+}
+
+button {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: rgb(124, 124, 124);
+   border: none;
+   font-weight: bolder;
+   font-family: 'Inter', sans-serif;
+   cursor: pointer;
+}
+
+.button:hover {
+   background-color: rgb(59, 59, 59);
+   color: rgb(0, 191, 255);
+   transition: .2s;
+}
+
+.button-clear {
+   position: absolute;
+   margin-left: 120px;
+   margin-top: 265px;
+   border-radius: 4px;
+   width: 80px;
+}
+
+.equal {
+   background-color: rgb(124, 124, 124);
+   color: rgb(0, 0, 0);
+}
+
+.equal:hover {
+   background-color: rgb(59, 59, 59);
+   transition: .2s;
+}
+.button-clear:hover {
+   background-color: rgb(59, 59, 59);
+   transition: .2s;
+   color: rgb(0, 191, 255);
+}
